@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="min-h-[88vh] flex justify-center items-center">
       <div className=" w-max my-0 relative z-[2] max-w-[90%] xl:max-w-[1300px] mx-auto">
         <Image
-          className="animate-[spin_5s_linear_infinite] absolute top-[-100px] sm:top-[-120px] xl:top-[-70px] right-[20vw]  sm:right-[12vw] w-[55px] sm:w-[100px] xl:w-[150px]"
+          className="animate-[spin_5s_linear_infinite] absolute top-[-50px] sm:top-[-120px] xl:top-[-70px] right-[20vw]  sm:right-[12vw] w-[55px] sm:w-[100px] xl:w-[150px]"
           src={spinner}
         />
         <span className="block text-[#0B2240] font-[Beatrice-Light] text-[22px] sm:text-[24px] md:text-[36px] lg:text-[48px] xl:text-[73px]">

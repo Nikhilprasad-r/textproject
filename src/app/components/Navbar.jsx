@@ -1,25 +1,41 @@
+"use client";
+import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { IoClose } from "react-icons/io5";
 const Navbar = () => {
+  const [mobile, setMobile] = useState(false);
   return (
     <div className="flex justify-between items-center h-[12vh] max-w-[90%] xl:max-w-[1300px] mx-auto">
-      <div className="lg:z-[6] relative mt-6">
+      <div className="lg:z-[6]  mt-6">
         <Link href="/">
           <Image
             src="/ai_interviewer_logo_raw.png"
             alt="Interviewer.ai"
             width={192}
             height={60}
-            className="ml-[-0.8rem]"
+            className="w-48 ml-[-.8rem]"
           />
         </Link>
-        <p></p>
       </div>
-      <div className="lg:hidden relative z-[6] mt-6" id="burger">
-        <Image src="/burger-left.png" width={28} height={28} />
+
+      <div className="lg:hidden  z-[6] mt-6" onClick={() => setMobile(true)}>
+        <Image
+          src="/burgermenu.svg"
+          width={28}
+          height={28}
+          className="cursor-pointer"
+        />
       </div>
-      <div className="flex mt-6">
-        <div className="ml-auto hidden lg:flex">
+      {/* <div
+        className={clsx(
+          "fixed h-lvh w-screen md:hidden bg-white top-0 left-0  transition-all delay-75",
+          mobile ? "-translate-y-0" : "-translate-y-full"
+        )}
+      ></div> */}
+      <div className="lg:flex hidden  mt-6">
+        <div className="ml-auto flex ">
           <div className="z-[999]">
             <Link
               className="nav-item relative font-[Beatrice-Light] text-[1rem]"
@@ -50,7 +66,7 @@ const Navbar = () => {
           <div className="ml-0 lg:ml-[2rem] mt-[1.5rem] lg:mt-0 z-[999]">
             <Link
               className="nav-item relative font-[Beatrice-Light] text-[1rem]"
-              href="#contact_us"
+              href="/"
             >
               Schedule a Demo
               <div className="underline-wrap">

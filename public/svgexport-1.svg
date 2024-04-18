@@ -1,1 +1,18 @@
-<svg class="absolute overflow-hidden z-[1] top-[-12rem] md:top-[-6rem] right-[-18rem] hero-svg-effect1 hero-svg-effect1-container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="822" height="822" viewBox="0 0 822 822"><defs><radialGradient id="radial-gradient00118833" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#84C4C0"></stop><stop offset="1" stop-color="#F8F6EF" stop-opacity="0"></stop></radialGradient><radialGradient id="radial-gradient00118833" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#84C4C0"></stop><stop offset="1" stop-color="#F8F6EF" stop-opacity="0"></stop></radialGradient><radialGradient id="radial-gradient00118833" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#84C4C0"></stop><stop offset="1" stop-color="#F8F6EF" stop-opacity="0"></stop></radialGradient></defs><circle id="Ellipse_1" data-name="Ellipse 1" cx="411" cy="411" r="411" fill="url(&quot;#radial-gradient00118833&quot;)"></circle></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 822 822">
+  <defs>
+    <radialGradient id="radial-gradient00118833" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#84C4C0"></stop>
+      <stop offset="1" stop-color="#F8F6EF" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="radial-gradient00118833" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#84C4C0"></stop>
+      <stop offset="1" stop-color="#F8F6EF" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="radial-gradient00118833" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#84C4C0"></stop>
+      <stop offset="1" stop-color="#F8F6EF" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  <circle id="Ellipse_1" data-name="Ellipse 1" cx="411" cy="411" r="411"
+    fill="url(&quot;#radial-gradient00118833&quot;)"></circle>
+</svg>
