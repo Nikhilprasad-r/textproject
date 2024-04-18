@@ -2,3 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "beatrice-light";
+  src: url("../../public/fonts/Beatrice-Light.095a9cff.woff2")
+    format("woff2");
+ 
+    font-display: swap;
+}
+@font-face {
+  font-family: "beatrice-regular";
+  src: url("../../public/fonts/Beatrice-Regular.86a3a833.woff2")
+    format("woff2");
+ 
+    font-display: swap;
+}
+
+@font-face {
+  font-family: "beatrice-semibold";
+  src: url("../../public/fonts/Beatrice-Semibold.750cfa55.woff2")
+    format("woff2");
+ 
+    font-display: swap;
+}
+@font-face {
+  font-family: "beatrice-medium";
+  src: url("../../public/fonts/Beatrice-Medium.31bf01f1.woff2")
+    format("woff2");
+ 
+    font-display: swap;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../public/fonts/Poppins-Regular.aa7134f0.woff2")
+    format("woff2");
+ 
+    font-display: swap;
+}
